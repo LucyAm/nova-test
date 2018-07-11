@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestNG]" data-provider-thread-count="3">
+  <test thread-count="2" verbose="0" name="1336_Tests_With_Priority(failed)" parallel="classes">
+    <classes>
+      <class name="novaTest.NovaTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- novaTest.NovaTest -->
+    </classes>
+  </test> <!-- 1336_Tests_With_Priority(failed) -->
+</suite> <!-- Failed suite [TestNG] -->
