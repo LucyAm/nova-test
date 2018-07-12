@@ -20,9 +20,10 @@ public class LoginPage extends PageObject {
     @FindBy(xpath = enterXpath)
     WebElement enter;
 
-    public AccountPage condirmLoggin() {
-        email.sendKeys("likakaul97@gmail.com");
-        password.sendKeys("rihanna11");
+    public AccountPage condirmLoggin(String login, String pass) {
+
+        email.sendKeys(login);
+        password.sendKeys(pass);
         enter.click();
         return new AccountPage(driver);
 
